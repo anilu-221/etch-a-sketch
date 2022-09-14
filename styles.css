@@ -1,0 +1,16 @@
+#board-container{
+    line-height: 0;
+}
+
+.grid-item{
+    background-color: #fff;
+    box-sizing:border-box;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    transition: 600ms;
+}
+
+.grid-lines{
+    border: 1px solid rgba(128, 128, 128, 0.372);
+}
