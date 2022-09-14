@@ -13,7 +13,7 @@ window.addEventListener('resize', resizeGrid);
 gridSlider.addEventListener('click', createGrid);
 clearButton.addEventListener('click', eraseGrid);
 gridSwitch.addEventListener('click', toggleSwitch);
-document.body.addEventListener('mousedown', () => mouseDown = true);
+board.addEventListener('mousedown', () => mouseDown = true);
 document.body.addEventListener('mouseup', () => mouseDown = false);
 
 //Functions to create and resize
